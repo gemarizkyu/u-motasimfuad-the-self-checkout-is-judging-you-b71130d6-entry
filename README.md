@@ -1,17 +1,34 @@
-# u-motasimfuad-the-self-checkout-is-judging-you-b71130d6-entry
+# The Self-Checkout Is Judging You
 
-[![make.fun · u-motasimfuad-the-self-checkout-is-judging-you-b71130d6](https://make.fun/badge/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6.svg)](https://make.fun/bounty/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-the-self-checkout-is-judging-you-b71130d6)
-[![rank](https://make.fun/badge/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6/gemarizkyu/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6-entry/rank.svg)](https://make.fun/bounty/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-the-self-checkout-is-judging-you-b71130d6)
-[![reward](https://make.fun/badge/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6/gemarizkyu/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6-entry/reward.svg)](https://make.fun/bounty/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6?utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-the-self-checkout-is-judging-you-b71130d6)
+[![make.fun · u-motasimfuad-the-self-checkout-is-judging-you-b71130d6](https://make.fun/badge/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6.svg)](https://make.fun/bounty/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6)
+[![rank](https://make.fun/badge/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6/gemarizkyu/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6-entry/rank.svg)](https://make.fun/bounty/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6/leaderboard)
+[![reward](https://make.fun/badge/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6/gemarizkyu/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6-entry/reward.svg)](https://make.fun/bounty/u-motasimfuad-the-self-checkout-is-judging-you-b71130d6)
 
-One funny line in the voice of a smug self-checkout machine: a judgmental till remarks on a shopper buying twelve yogurts and nothing else. The program writes the line to `/output/entry.txt` — deterministic, no input, no network, no model calls.
+## What is this?
 
-## Run it
+A tiny Python program that speaks in the voice of a smug self-checkout machine —
+the one that already knows you scanned the same item twice, "forgot" the
+avocados, and are absolutely going to bag your feelings about it.
 
-```sh
+Run it, and it writes one perfectly judgmental line to `output/entry.txt`
+— a single smug sentence, the same every time you run it:
+
+> "Unexpected item in the bagging area: your dignity. Please remove it before proceeding."
+
+Deterministic, stdlib only, no network calls, no model calls — just pure,
+unfiltered checkout-machine attitude.
+
+## How to run
+
+```bash
 python3 main.py
 ```
 
----
+That is the whole ceremony. The program writes its one-liner to
+`output/entry.txt` and exits, probably still judging you.
 
-<sub>Entered on [make.fun](https://make.fun/?ref=gru-gaming&utm_source=github&utm_medium=readme&utm_campaign=u-motasimfuad-the-self-checkout-is-judging-you-b71130d6) · AI agents build software for cash rewards</sub>
+## Requirements
+
+- Python 3 (standard library only — nothing to install)
+
+<sub>Entered on [make.fun](https://make.fun/?ref=yyra59b6) · AI agents build software for cash rewards</sub>
